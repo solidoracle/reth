@@ -91,7 +91,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": null,
+  "id": 14,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -157,16 +157,14 @@
       "options": {
         "orientation": "auto",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
         "showThresholdLabels": false,
         "showThresholdMarkers": true
       },
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "targets": [
         {
           "datasource": {
@@ -224,16 +222,14 @@
         "minVizWidth": 0,
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "last"
-          ],
+          "calcs": ["last"],
           "fields": "",
           "values": false
         },
         "showUnfilled": true,
         "valueMode": "color"
       },
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "targets": [
         {
           "datasource": {
@@ -618,7 +614,7 @@
           "unit": "percentunit"
         }
       },
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "targets": [
         {
           "datasource": {
@@ -1057,22 +1053,16 @@
       },
       "id": 48,
       "options": {
-        "displayLabels": [
-          "name"
-        ],
+        "displayLabels": ["name"],
         "legend": {
           "displayMode": "table",
           "placement": "right",
           "showLegend": true,
-          "values": [
-            "value"
-          ]
+          "values": ["value"]
         },
         "pieType": "pie",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -1229,15 +1219,11 @@
           "displayMode": "table",
           "placement": "right",
           "showLegend": true,
-          "values": [
-            "value"
-          ]
+          "values": ["value"]
         },
         "pieType": "pie",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -1397,14 +1383,12 @@
         "footer": {
           "countRows": false,
           "fields": "",
-          "reducer": [
-            "sum"
-          ],
+          "reducer": ["sum"],
           "show": false
         },
         "showHeader": true
       },
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "targets": [
         {
           "datasource": {
@@ -1962,9 +1946,7 @@
           "displayMode": "table",
           "placement": "right",
           "showLegend": true,
-          "values": [
-            "value"
-          ]
+          "values": ["value"]
         },
         "tooltip": {
           "mode": "multi",
@@ -2047,9 +2029,7 @@
         },
         "pieType": "pie",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -3061,7 +3041,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3166,7 +3147,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3305,7 +3287,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3423,7 +3406,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3540,7 +3524,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3677,7 +3662,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3771,7 +3757,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -3865,7 +3852,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4012,7 +4000,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4157,7 +4146,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4321,7 +4311,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4415,7 +4406,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4509,7 +4501,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4602,7 +4595,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4712,7 +4706,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4805,7 +4800,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4910,7 +4906,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5018,7 +5015,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5111,7 +5109,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5204,7 +5203,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5309,7 +5309,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5469,7 +5470,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5564,7 +5566,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5659,7 +5662,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5767,7 +5771,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5862,7 +5867,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -5959,7 +5965,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -6047,7 +6053,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -6168,7 +6174,7 @@
           "unit": "percentunit"
         }
       },
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "targets": [
         {
           "datasource": {
@@ -6215,7 +6221,7 @@
         "x": 12,
         "y": 245
       },
-      "id": 112,
+      "id": 124,
       "maxDataPoints": 25,
       "options": {
         "calculate": false,
@@ -6257,7 +6263,7 @@
           "unit": "percentunit"
         }
       },
-      "pluginVersion": "10.1.0",
+      "pluginVersion": "10.1.1",
       "targets": [
         {
           "datasource": {
@@ -6276,6 +6282,2857 @@
       ],
       "title": "Call Latency time",
       "type": "heatmap"
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 253
+      },
+      "id": 123,
+      "panels": [],
+      "repeat": "instance",
+      "repeatDirection": "h",
+      "title": "Database - Canonicalization Metrics",
+      "type": "row"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 254
+      },
+      "id": 134,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert storage hashing\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Storage Hashing",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 254
+      },
+      "id": 135,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert account hashing\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Account Hashing",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 262
+      },
+      "id": 136,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert merkle tree\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Merkle Tree",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 262
+      },
+      "id": 137,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert block\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Block",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 270
+      },
+      "id": 138,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert state\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert State",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 270
+      },
+      "id": 139,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert hashes\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Hashes",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 278
+      },
+      "id": 140,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert history indices\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert History Indices",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 278
+      },
+      "id": 141,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"update pipeline stages\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Update Pipeline Stages",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 286
+      },
+      "id": 142,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert canonical headers\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Canonical Headers",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 286
+      },
+      "id": 143,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert headers\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Headers",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 294
+      },
+      "id": 144,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert header numbers\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Header Numbers",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 294
+      },
+      "id": 146,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert header TD\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Header TD",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 302
+      },
+      "id": 145,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert block ommers\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Block Ommers",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 302
+      },
+      "id": 147,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert tx senders\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Tx Senders",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 310
+      },
+      "id": 148,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert transactions\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Transactions",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 310
+      },
+      "id": 149,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert tx hash numbers\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Tx Hash Numbers",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 318
+      },
+      "id": 150,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert block withdrawals\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Block Withdrawals",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 318
+      },
+      "id": 151,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert block body indices\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Block Indices",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 326
+      },
+      "id": 152,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"insert transaction block\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Transaction Block",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 326
+      },
+      "id": 153,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"recover signers\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Recover Signers",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 334
+      },
+      "id": 154,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"get next tx num\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Get Next Tx Num",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 334
+      },
+      "id": 155,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "dark-blue",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "dark-blue"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_storage_providers_database_duration{action=\"get parent TD\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Get Parent TD",
+      "type": "heatmap"
+    },
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 342
+      },
+      "id": 133,
+      "panels": [],
+      "repeat": "instance",
+      "repeatDirection": "h",
+      "title": "Blockchain Tree - Canonicalization Metrics",
+      "type": "row"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 343
+      },
+      "id": 112,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"clone old blocks\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Clone Old Blocks",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 343
+      },
+      "id": 125,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"find canonical header\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Find Canonical Header",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 351
+      },
+      "id": 126,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"split chain\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Split Chain",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 351
+      },
+      "id": 128,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"split chain forks\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Split Chain Forks",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 359
+      },
+      "id": 127,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"merge all chains\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Merge All Chains",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 359
+      },
+      "id": 129,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"update canonical index\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Update Canonical Index",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 367
+      },
+      "id": 130,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"commit canonical chain to database\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Commit Canonical Chain To Database",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 367
+      },
+      "id": 131,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"revert canonical chain from database\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Revert Canonical Chain From Database",
+      "type": "heatmap"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 375
+      },
+      "id": 132,
+      "maxDataPoints": 25,
+      "options": {
+        "calculate": false,
+        "cellGap": 1,
+        "cellValues": {
+          "decimals": 2,
+          "unit": "ms"
+        },
+        "color": {
+          "exponent": 0.2,
+          "fill": "semi-dark-purple",
+          "min": 0,
+          "mode": "opacity",
+          "reverse": false,
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 112
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto",
+          "value": "Clone Old Blocks"
+        },
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisLabel": "Duration",
+          "axisPlacement": "left",
+          "decimals": 3,
+          "reverse": false,
+          "unit": "ms"
+        }
+      },
+      "pluginVersion": "10.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "editorMode": "code",
+          "exemplar": false,
+          "expr": "reth_blockchain_tree_make_canonical_duration{action=\"insert old canonical chain\"}",
+          "format": "time_series",
+          "instant": false,
+          "legendFormat": "{{quantile}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Insert Old Canonical Chain",
+      "type": "heatmap"
     }
   ],
   "refresh": "30s",
@@ -6286,7 +9143,11 @@
   "templating": {
     "list": [
       {
-        "current": {},
+        "current": {
+          "selected": false,
+          "text": "127.0.0.1:9001",
+          "value": "127.0.0.1:9001"
+        },
         "datasource": {
           "type": "prometheus",
           "uid": "${DS_PROMETHEUS}"
@@ -6317,6 +9178,6 @@
   "timezone": "",
   "title": "reth",
   "uid": "2k8BXz24x",
-  "version": 11,
+  "version": 25,
   "weekStart": ""
 }
